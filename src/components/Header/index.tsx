@@ -1,5 +1,5 @@
 import React from 'react'
-import { View } from 'react-native'
+import { View, Text, TouchableOpacity } from 'react-native'
 
 import { styles } from './styles'
 
@@ -11,7 +11,10 @@ export function Header() {
     return (
         <View style={styles.container}>
             <LogoSvg />
-            <Text>Sair</Text>
+            
+            <TouchableOpacity>
+                <Text style={styles.logoutText}>Sair</Text>
+            </TouchableOpacity>
 
         </View>
     )
