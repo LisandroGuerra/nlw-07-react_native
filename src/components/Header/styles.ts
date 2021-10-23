@@ -10,9 +10,15 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 20,
   },
+  logoutButton: {
+    flexDirection: 'row',
+    alignItems: 'center'
+  },
   logoutText: {
       fontSize: 20,
       fontFamily: FONTS.BOLD,
       color: COLORS.WHITE,
+      marginRight: 20
   }
+  
 })
