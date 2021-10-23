@@ -1,4 +1,5 @@
-import { StyleSheet } from "react-native"
+import { StyleSheet } from 'react-native'
+import { COLORS } from '../../theme'
 
 
 export const styles = StyleSheet.create({
@@ -6,5 +7,7 @@ export const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: COLORS.BLACK_SECONDARY
+        
     }
 })
