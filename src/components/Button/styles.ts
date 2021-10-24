@@ -9,13 +9,14 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
+    borderRadius: 50
   },
   title: {
-      fontFamily: FONTS.BOLD,
-      fontSize: 16,    
+    fontFamily: FONTS.BOLD,
+    fontSize: 16,
   },
   icon: {
-      fontSize: 24,
-      marginRight: 16,
+    fontSize: 24,
+    marginRight: 16,
   }
 })
